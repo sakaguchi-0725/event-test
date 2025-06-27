@@ -30,7 +30,7 @@ export default function Home() {
       <h1 className="text-2xl font-bold md:text-4xl">電話番号長押しイベント調査用</h1>
       <div className="flex gap-8 items-center justify-center">
         <div className="flex flex-col items-center gap-2 justify-center">
-          <h2 className="text-xl font-bold md:text-2xl">Pointer Event</h2>
+          <h2 className="text-lg font-bold md:text-2xl">Pointer Event</h2>
           <a
             href="tel:0312345678"
             className="text-xl font-bold px-4 py-2 bg-blue-500 text-white rounded-md"
@@ -41,7 +41,7 @@ export default function Home() {
           </a>
         </div>
         <div className="flex flex-col items-center gap-2 justify-center">
-          <h2 className="text-xl font-bold md:text-2xl">Touch Event</h2>
+          <h2 className="text-lg font-bold md:text-2xl">Touch Event</h2>
           <a
             href="tel:0312345678"
             className="text-xl font-bold px-4 py-2 bg-blue-500 text-white rounded-md"
@@ -52,7 +52,7 @@ export default function Home() {
           </a>
         </div>
         <div className="flex flex-col items-center gap-2 justify-center">
-          <h2 className="text-xl font-bold md:text-2xl">Click Event</h2>
+          <h2 className="text-lg font-bold md:text-2xl">Click Event</h2>
           <a
             href="tel:0312345678"
             className="text-xl font-bold px-4 py-2 bg-blue-500 text-white rounded-md"
@@ -64,7 +64,7 @@ export default function Home() {
       </div>
       {
         eventType && (
-          <div className="text-xl font-bold">
+          <div className="text-xl font-bold h-8 flex items-center justify-center">
             {eventType}
           </div>
         )
