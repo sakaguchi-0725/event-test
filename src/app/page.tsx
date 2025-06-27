@@ -62,13 +62,9 @@ export default function Home() {
           </a>
         </div>
       </div>
-      {
-        eventType && (
-          <div className="text-xl font-bold h-8 flex items-center justify-center">
-            {eventType}
-          </div>
-        )
-      }
+      <div className="text-xl font-bold h-8 flex items-center justify-center">
+        {eventType}
+      </div>
     </div>
   );
 }
